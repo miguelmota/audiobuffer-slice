@@ -1,0 +1,30 @@
+{
+  "name": "audiobuffer-slice",
+  "version": "0.0.1",
+  "description": "Slice out a portion of an AudioBuffer.",
+  "main": "audiobuffer-slice.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/audiobuffer-slice"
+  },
+  "keywords": [
+    "audio",
+    "audiobuffer",
+    "slice"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/audiobuffer-slice/issues"
+  },
+  "homepage": "https://github.com/miguelmota/audiobuffer-slice",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}
