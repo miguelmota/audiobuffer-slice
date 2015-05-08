@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "homepage": "https://github.com/miguelmota/audiobuffer-slice",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "audio-oscilloscope": "*"
+  }
+}
