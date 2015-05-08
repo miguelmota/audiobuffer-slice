@@ -16,7 +16,7 @@ bower install audiobuffer-slice
 
 # Usage
 
-See [example]() directory for full example.
+See [example](https://github.com/miguelmota/audiobuffer-slice/tree/master/example) directory for full example.
 
 ```javascript
 var AudioBufferSlice = require('audiobuffer-slice');
