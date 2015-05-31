@@ -19,6 +19,10 @@
       end = duration;
     }
 
+    // milliseconds to seconds
+    begin = begin/1000;
+    end = end/1000;
+
     if (begin < 0) {
       error = new RangeError('begin time must be greater than 0');
     }

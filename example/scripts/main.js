@@ -66,8 +66,8 @@
   }
 
   function decodeDone(buffer) {
-    var begin = 50;
-    var end = begin + 20;
+    var begin = 50000;
+    var end = begin + 20000;
 
     AudioBufferSlice(buffer, begin, end, function(error, slicedAudioBuffer) {
       if (error) {

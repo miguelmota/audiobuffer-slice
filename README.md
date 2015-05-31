@@ -21,8 +21,8 @@ See [example](https://github.com/miguelmota/audiobuffer-slice/tree/master/exampl
 ```javascript
 var AudioBufferSlice = require('audiobuffer-slice');
 
-// audioBuffer slice from 10s to 15s; a 5 second slice.
-AudioBufferSlice(audioBuffer, 10, 15, function(error, slicedAudioBuffer) {
+// audioBuffer slice from 10s to 15s; a 5 second (5000ms) slice.
+AudioBufferSlice(audioBuffer, 10000, 15000, function(error, slicedAudioBuffer) {
   if (error) {
     console.error(error);
   } else {
