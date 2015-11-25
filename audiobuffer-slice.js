@@ -1,7 +1,7 @@
 (function(root) {
   'use strict';
 
-  var audioContext = new window.AudioContext || window.webkitAudioContext;
+  var audioContext = new (window.AudioContext || window.webkitAudioContext);
 
   function AudioBufferSlice(buffer, begin, end, callback) {
     if (!(this instanceof AudioBufferSlice)) {
