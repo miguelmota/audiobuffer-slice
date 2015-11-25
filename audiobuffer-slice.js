@@ -1,7 +1,7 @@
 (function(root) {
   'use strict';
 
-  window.AudioContext = window.AudioContext || window.webkitAudioContext;
+  var audioContext = new window.AudioContext || window.webkitAudioContext;
 
   function AudioBufferSlice(buffer, begin, end, callback) {
     if (!(this instanceof AudioBufferSlice)) {
@@ -41,8 +41,6 @@
     var newArrayBuffer;
 
     try {
-      var audioContext = new AudioContext();
-
       newArrayBuffer = audioContext.createBuffer(channels, endOffset, rate);
       var anotherArray = new Float32Array(frameCount);
       var offset = 0;
