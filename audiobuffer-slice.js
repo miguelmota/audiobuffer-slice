@@ -41,7 +41,7 @@
     var newArrayBuffer;
 
     try {
-      newArrayBuffer = audioContext.createBuffer(channels, endOffset, rate);
+      newArrayBuffer = audioContext.createBuffer(channels, endOffset - startOffset, rate);
       var anotherArray = new Float32Array(frameCount);
       var offset = 0;
 
