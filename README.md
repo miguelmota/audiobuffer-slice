@@ -10,10 +10,6 @@ Slice out a portion of an `AudioBuffer`.
 npm install audiobuffer-slice
 ```
 
-```bash
-bower install audiobuffer-slice
-```
-
 # Usage
 
 See [example](https://github.com/miguelmota/audiobuffer-slice/tree/master/example) directory for full example. [Live example](https://lab.miguelmota.com/audiobuffer-slice/example)

@@ -1,6 +1,6 @@
 {
   "name": "audiobuffer-slice",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Slice out a portion of an AudioBuffer.",
   "main": "audiobuffer-slice.js",
   "directories": {
