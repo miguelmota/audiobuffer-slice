@@ -3,9 +3,9 @@
 
   var audioContext = new (window.AudioContext || window.webkitAudioContext);
 
-  function AudioBufferSlice(buffer, begin, end, callback) {
-    if (!(this instanceof AudioBufferSlice)) {
-      return new AudioBufferSlice(buffer, begin, end, callback);
+  function audioBufferSlice(buffer, begin, end, callback) {
+    if (!(this instanceof audioBufferSlice)) {
+      return new audioBufferSlice(buffer, begin, end, callback);
     }
 
     var error = null;
@@ -58,14 +58,14 @@
 
   if (typeof exports !== 'undefined') {
     if (typeof module !== 'undefined' && module.exports) {
-      exports = module.exports = AudioBufferSlice;
+      exports = module.exports = audioBufferSlice;
     }
-    exports.AudioBufferSlice = AudioBufferSlice;
+    exports.audioBufferSlice = audioBufferSlice;
   } else if (typeof define === 'function' && define.amd) {
     define([], function() {
-      return AudioBufferSlice;
+      return audioBufferSlice;
     });
   } else {
-    root.AudioBufferSlice = AudioBufferSlice;
+    root.audioBufferSlice = audioBufferSlice;
   }
 })(this);
